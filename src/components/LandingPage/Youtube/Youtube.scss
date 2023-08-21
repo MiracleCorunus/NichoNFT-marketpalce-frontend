@@ -1,0 +1,137 @@
+.Youtube {
+  padding-top: 47px;
+  padding-bottom: 63px;
+  text-align: center;
+  .test-load-bg{
+    background-image: url('../../../assets/images/new/youtobe.png');
+    background-size: cover;
+  }
+  
+  .lite-wrap {
+    width: 720px;
+    margin: 0 auto;
+    @media screen and (max-width: 992px) {
+      width: 345px;
+    }
+  }
+
+  .lite-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+    width: 100%;
+    height: 40px;
+    background: var(--themeColor);
+    border-radius: 6px 6px 0 0;
+    padding-left: 37px;
+    @media screen and (max-width: 992px) {
+      padding-left: 20px;
+    }
+
+    .icon1,
+    .icon2,
+    .icon3 {
+      width: 10.76px;
+      height: 10.76px;
+      border-radius: 100%;
+      background: rgb(255, 89, 134);
+      border: 1.2px solid rgb(13, 5, 44);
+      margin-right: 13px;
+    }
+
+    .icon2 {
+      background: rgb(255, 228, 131);
+    }
+
+    .icon3 {
+      background: var(--themeColor);
+    }
+    .icon4 {
+        position: absolute;
+        left: 160px;
+        top: 14px;
+        width: 140.71px;
+        height: 10.64px;
+        border: 1.2px solid rgb(13, 5, 44);
+        border-radius: 5px;
+        @media screen and (max-width: 992px) {
+          width: 100px;
+          left: 140px;
+        }
+    }
+    .icon5{
+        position: absolute;
+        top: 0;
+        right: 48px;
+        height: 100%;
+        border-right: 1px solid rgb(13, 5, 44);
+    }
+  }
+
+  .partner-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  iframe {
+    pointer-events: auto;
+  }
+
+  .yt-lite > .lty-playbtn{
+    width: 79.71px;
+    height: 79.71px;
+    border-radius: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    &:before{
+      transform: translate3d(-42%, -50%, 0);
+    }
+    &:before{
+      border-color: transparent transparent transparent rgb(119, 116, 255);
+    }
+    &:hover{
+      background-color: rgb(119, 116, 255);
+      &:before{
+        border-color: transparent transparent transparent #fff;
+      }
+    }
+    // &:hove:before{
+    //   border-color: transparent transparent transparent #fff;
+    // }
+  
+  }
+
+  .yt-lite {
+    width: 720px;
+    height: 412px;
+    border-radius: 0 0 4px 4px;
+    background: rgba(0, 0, 0, 0.75);
+    background-image: url('../../../assets/images/new/youtobe.png') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 992px) {
+      width: 345px;
+      height: 199px;
+      border-radius: 0 0 4px 4px;
+    }
+    &.lyt-activated{
+      background: none !important;
+    }
+    &.lyt-activated:after {
+      // background-color: transparent;
+    }
+    &:after {
+      background-color: rgba(0,0,0,0.75);
+    }
+    
+    &:before{
+        display: none;
+    }
+  }
+
+
+}

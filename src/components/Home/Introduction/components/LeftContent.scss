@@ -1,0 +1,46 @@
+.left-content {
+  margin-top: 141px;
+  padding-right: 20px;
+  @media screen and (max-width: 992px) {
+    text-align: center;
+  }
+  @media screen and (max-width: 500px) {
+    margin-top: 30px;
+  }
+  .btn-group {
+    margin-top: 24px;
+    button {
+      &#explore {
+        padding: 14px 68.5px;
+        @media screen and (max-width: 576px) {
+          padding: 14px 30px;
+        }
+      }
+      &#create {
+        padding: 14px 32px;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .status-list {
+    margin-top: 42px;
+    display: flex;
+    @media screen and (max-width: 992px) {
+      justify-content: space-between;
+    }
+    .status-item {
+      margin-left: 120px;
+      @media screen and (max-width: 992px) {
+        margin-left: 0;
+      }
+
+      &:first-child {
+        margin-left: 0;
+      }
+      div.ant-typography {
+        color: var(--white56Color);
+      }
+    }
+  }
+}

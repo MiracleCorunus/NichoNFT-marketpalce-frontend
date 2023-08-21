@@ -1,0 +1,37 @@
+.guide {
+  h2 {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    @media screen and (max-width: 992px) {
+      margin-top: 80px;
+    }
+  }
+  .card {
+    background-color: var(--bgSecondaryColor);
+    min-height: 395px;
+    div.ant-typography {
+      line-height: 180%;
+    }
+    position: relative;
+    padding: 35px 30px 27px 30px;
+    // border: 1px solid var(--white24Color);
+    border-radius: 25px;
+    .title {
+      margin-top: 46px;
+    }
+    .description {
+      margin: 20px 0 26px;
+    }
+    .ribon {
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      width: 126px;
+      height: 106px;
+    }
+    .icon {
+      position: absolute;
+      bottom: 30px;
+    }
+  }
+}

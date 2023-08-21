@@ -1,0 +1,33 @@
+.mobile-app-wrapper {
+  .mobile-app-wrapper-left {
+    margin: 3rem 0;
+    .mobile-app-wrapper-left-img1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .mobile-app-wrapper-left-img2 {
+      position: absolute;
+      top: 20px;
+      right: -20px;
+    }
+  }
+  .mobile-app-wrapper-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .mobile-app-mobile-download {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+      // width: 100%;
+    }
+  }
+}

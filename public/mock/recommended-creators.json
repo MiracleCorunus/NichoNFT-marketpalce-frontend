@@ -1,0 +1,26 @@
+[
+  {
+    "title": "The Apes",
+    "collect-count": "5",
+    "ownerImg": "images/user2.jpg",
+    "collectionImg": "images/rec-collect-1.jpg"
+  },
+  {
+    "title": "The Apes",
+    "collect-count": "5",
+    "ownerImg": "images/user1.jpg",
+    "collectionImg": "images/rec-collect-3.jpg"
+  },
+  {
+    "title": "The Apes",
+    "collect-count": "5",
+    "ownerImg": "images/user3.jpg",
+    "collectionImg": "images/rec-collect-3.jpg"
+  },
+  {
+    "title": "The Apes",
+    "collect-count": "5",
+    "ownerImg": "images/user3.jpg",
+    "collectionImg": "images/rec-collect-3.jpg"
+  }
+]

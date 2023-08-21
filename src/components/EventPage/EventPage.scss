@@ -1,0 +1,15 @@
+.page-content {
+  .feature-card {
+    .ant-image {
+      width: 111%;
+    }
+  }
+}
+
+.eventpage-img-hover {
+  transition: 0.25s ease-in-out;
+  &:hover {
+    transform: scale(1.04);
+    box-shadow: 0px 0px 69px rgb(89 86 229 / 60%);
+  }
+}

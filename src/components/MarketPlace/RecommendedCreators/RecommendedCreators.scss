@@ -1,0 +1,21 @@
+.creators-new {
+  text-align: center;
+  background-color: #53F2D4;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  @media screen and (max-width: 992px) {
+  }
+
+
+  .view-more-btn {
+    margin: 10px 0;
+    background: transparent;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+  }
+  .view-more-btn:hover {
+    background: transparent;
+  }
+}

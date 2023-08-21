@@ -1,0 +1,88 @@
+.guide-comp {
+  padding-top: 78px;
+  text-align: center;
+  padding-bottom: 71px;
+  h2 {
+    padding-bottom: 103px;
+    @media screen and (max-width: 992px) {
+    }
+  }
+  .card {
+    /* 蒙版 */
+    position: relative;
+    height: 288px;
+    background: rgb(22, 24, 34);
+    border-radius: 4px;
+    text-align: left;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    @media screen and (max-width: 992px) {
+     margin-bottom: 60px;
+     box-shadow: rgb(163 156 156 / 40%) 0px 1px 12px 0px;
+    }
+    &:hover{
+      border: 1px solid rgb(119, 116, 255);
+      box-shadow: 0px 2px 30px rgb(89 86 229 / 50%);
+      border-top-color: transparent;
+      border-radius:6px 6px 4px 4px;
+    }
+    .count-bg{
+      position: absolute;
+      top: -65px;
+      left: 19px;
+      width: 118px;
+    }
+
+    .title {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      padding-left: 22px;
+      height: 48px;
+      background: rgb(119, 116, 255);
+      box-shadow: 0px 10px 10px rgba(77, 78, 86, 0.04);
+      border-radius: 4px 4px 0px 0px;
+      font-family: Roboto;
+      font-size: 20px;
+      font-weight: 900;
+      letter-spacing: 0px;
+    }
+    .description {
+      padding:0 19px 0 24px;
+      color: rgb(255, 255, 255) !important;
+      font-family: Roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 1px;
+      text-align: left;
+    }
+    .ribon {
+      position: absolute;
+      right: -20px;
+      top: -20px;
+      width: 126px;
+      height: 106px;
+    }
+    .icon {
+      position: absolute;
+      bottom: 30px;
+    }
+    &.card1 {
+      .ant-image{
+        margin: 26px 0 20px 24px;
+      }
+    }
+    &.card2 {
+      .ant-image{
+        margin: 26px 0 34px 24px;
+      }
+    }
+    &.card3 {
+      .ant-image{
+        margin: 10px 0 8px 24px;
+      }
+    }
+  }
+}

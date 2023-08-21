@@ -1,0 +1,99 @@
+.form-layout {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+  .invoice-header {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 3.5rem;
+    color: white;
+  }
+
+  .invoice-container{
+    width: 100%;
+    display: flex;
+
+    position: relative;
+    //   height: 10rem;
+    border-radius: 2rem;
+    margin: 4rem 0;
+    padding: 1rem;
+    background-image: linear-gradient(
+      to bottom left,
+      rgba(29, 31, 49, 1),
+      rgba(29, 31, 49, 1)
+    );
+    //   background-image: linear-gradient(
+    //     to bottom right,
+    //     rgb(89 86 229 / 38.2%),
+    //     rgb(89 86 229 / 0)
+    //   );
+    backdrop-filter: blur(20px);
+    //   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.618);
+    box-shadow: 0px 0px 70px rgb(89 86 229 / 61.8%);
+    border: 1px solid rgb(83, 242, 212);
+    // border-top: 2rem solid rgb(83, 242, 212);
+    .card-container {
+      padding: 1rem;
+      width: 70%;
+      background-image: linear-gradient(
+        to bottom left,
+        rgba(29, 31, 49, 1),
+        rgba(29, 31, 49, 1)
+      );
+      backdrop-filter: blur(20px);
+      .ant-upload.ant-upload-select-picture-card {
+        background-color: black;
+      }
+    }
+    .card-container-hidden {
+      display: none;
+      background-color: white;
+    }
+  }
+}
+
+
+
+
+
+.action-container {
+  width: 30%;
+  padding-left: 30px;
+}
+
+
+.ant-input {
+  background: rgba(255, 255, 255, 0.06);
+  // box-shadow: 0.5px 0.5px 5px white;
+  border-radius: 1rem;
+  color: white;
+  padding: 0.8rem;
+  resize: none;
+  border: none;
+}
+
+.ant-input-number {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 0.5rem;
+  color: white;
+  width: 200px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+.ant-datepicker{
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 0.5rem;
+  color: white;
+  border: none;
+  text-emphasis-color: white;
+}
+
+.upload-logo-container {
+  background: rgba(255, 255, 255, 0.06);
+  color: white;
+}

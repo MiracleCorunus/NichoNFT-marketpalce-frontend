@@ -1,0 +1,20 @@
+.theme-button {
+  background: rgb(119, 116, 255);
+  box-shadow: 0px 10px 10px rgba(77, 78, 86, 0.04);
+  border-radius: 28.06px;
+  border: none;
+  &:hover {
+    box-shadow: 0px 2px 30px rgb(89 86 229 / 40%);
+    background: rgba(119, 116, 255, 0.7) !important;
+    border: none;
+  }
+}
+.landing-page {
+  overflow-x: hidden;
+}
+.dark-grey {
+  background-color: rgb(22, 24, 34);
+}
+.dark-black {
+  background-color: rgb(15, 13, 20);
+}

@@ -1,0 +1,84 @@
+.ant-progress-circle .ant-progress-text {
+  color: white;
+}
+
+.ai-mint-form {
+  width: 100%;
+  background: #161822;
+  position: relative;
+  // border: 1px solid rgb(83, 242, 212);
+  //   padding: 2rem;
+
+  .ai-mint-form-overlay {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .ai-mint-form-overlay-loading {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .ai-mint-form-info-txt {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .ai-mint-form-header {
+    background: rgb(83, 242, 212);
+    .ai-minting-form-header-text {
+      text-align: center;
+      color: #161822;
+      padding: 0.5rem 0;
+    }
+  }
+
+  .ai-mint-form-input-area {
+    padding: 2rem;
+    // border-radius: 1rem;
+
+    .ai-mint-form-image {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+      .ai-mint-form-image-frame {
+        border-radius: 2rem;
+        border: 1px solid rgb(83, 242, 212);
+        overflow: hidden;
+        box-shadow: 0px 0px 70px rgb(89 86 229 / 61.8%);
+      }
+    }
+
+    .ai-mint-form-input-category {
+      // border: 1px solid rgb(83, 242, 212);
+      background: black;
+      border-radius: 1rem;
+      padding: 1.5rem;
+      margin-bottom: 0.5rem;
+
+      .ai-mint-form-input-header {
+        margin-bottom: 0.5rem;
+      }
+
+      .ai-mint-form-input {
+        background: black;
+        border-radius: 8px;
+        color: white;
+        border: 1px solid grey;
+      }
+    }
+
+    .ai-mint-form-button-group {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+  }
+}

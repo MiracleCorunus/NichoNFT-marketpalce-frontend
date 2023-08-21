@@ -1,0 +1,111 @@
+.footer-content-new {
+  max-width: 1440px;
+  padding: 20px 70px 0;
+  margin: 0 auto;
+  overflow: hidden;
+
+  
+  @media screen and (max-width: 992px) {
+    padding: 20px 20px 0;
+  }
+
+  h3.ant-typography{
+    color: var(--themeColor);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 19px;
+    padding-bottom: 9px;
+  }
+  .vertical-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: 'Mukta';
+  }
+
+  .contact-wrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .ant-typography-gray{
+      font-size: 14px;
+      color: #fff !important;
+    }
+    .left {
+      padding-right: 11px;
+    }
+
+    .social-group {
+      text-align: left;
+      padding: 20px 0 0 0;
+      button {
+        margin-right: 12px;
+      }
+      svg {
+        path {
+          fill: #7774ff;
+          stroke: #7774ff;
+        }
+      }
+    }
+  }
+  .col12{
+    padding-left: 0 !important;
+  }
+
+  .bottom {
+    color: #fff;
+    padding: 34px 0 15px;
+    align-items: center;
+    .ant-typography{
+      font-size: 12px;
+    }
+  }
+
+  .link {
+    cursor: pointer;
+    color: rgb(255, 255, 255) !important;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-right: 21px;
+    white-space:nowrap;
+
+    &:hover {
+      color: #fff !important;
+      text-decoration: underline;
+    }
+  }
+  .ant-input {
+    background: none;
+    border: 1px solid var(--white40Color);
+    border-radius: 6px;
+    padding: 9px 12px;
+    color: var(--white72Color);
+    font-size: 16px;
+    line-height: 140%;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .ant-btn-circle{
+    background: transparent;
+    transform: scale(1);
+    &:hover{
+      background: transparent !important;
+      transform: scale(1.25);
+      transition: all 0.2s;
+      border: none;
+    }
+  }
+  .medium-wrap{
+  }
+}

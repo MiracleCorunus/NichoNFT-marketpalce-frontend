@@ -1,0 +1,47 @@
+{
+  "title": "Pixel Ape #10",
+  "category": "Art",
+  "description": "This is the Pixel Ape collection created by an Indian artits, we have only 100 apes in this collection! Lets \"ape\" together!",
+  "price": "0.3",
+  "nftImg": "images/product1.jpg",
+  "creatorImg": "images/user2.jpg",
+  "owner": {
+    "ownerImg": "images/user1.jpg",
+    "id": "0xVENNY"
+  },
+  "nftInfo": {
+    "nftId": "30",
+    "nftMintTransaction": "0x94f0dde4ee9cbe98ebff85602c762b36a69de86bc7cecbef19d09122e0e09f17",
+    "contractAddress": "0x4e8a2D1Ccf54eC6cccDcfab24892A4b8306C3567"
+  },
+  "relatedItem": [
+    {
+      "title": "BORED APE #10129 21 55 NFT PRIDE",
+      "description": "One night wukong fell as the test sample",
+      "price": 3.65,
+      "productImg": "images/product1.jpg",
+      "ownerImg": "images/user1.jpg"
+    },
+    {
+      "title": "BORED APE #10129 21 55 NFT PRIDE",
+      "description": "One night wukong fell as the test sample",
+      "price": 3.65,
+      "productImg": "images/product2.jpg",
+      "ownerImg": "images/user2.jpg"
+    },
+    {
+      "title": "BORED APE #10129 21 55 NFT PRIDE",
+      "description": "One night wukong fell as the test sample",
+      "price": 3.65,
+      "productImg": "images/product3.jpg",
+      "ownerImg": "images/user3.jpg"
+    },
+    {
+      "title": "BORED APE #10129 21 55 NFT PRIDE",
+      "description": "One night wukong fell as the test sample",
+      "price": 3.65,
+      "productImg": "images/product1.jpg",
+      "ownerImg": "images/user5.jpg"
+    }
+  ]
+}

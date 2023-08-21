@@ -1,0 +1,235 @@
+.view-collection-new {
+  .view-header {
+    height: 400px;
+    position: relative;
+    background-color: gainsboro;
+    background-size: cover;
+    background-position: center center;
+    & > .banner-img {
+      width: 100%;
+      max-height: 250px;
+      object-fit: cover;
+    }
+    .collection-logo {
+      width: 120px;
+      height: 120px;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 50%);
+      background-color: gainsboro;
+      border-radius: 50%;
+      border: 2px solid white;
+      overflow: hidden;
+      & > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  .info-content {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-top: 130px;
+    box-sizing: border-box;
+    height: 276px;
+    background-size: cover;
+    margin-top: 44px;
+
+    .edit-collection {
+      position: absolute;
+      top: 75px;
+      right: 60px;
+      font-size: 28px;
+      color: #aaa;
+      cursor: pointer;
+      margin-top: 5px;
+      &:hover {
+        color: #fff;
+      }
+    }
+
+    .delete-collection {
+      position: absolute;
+      top: 75px;
+      right: 10px;
+      font-size: 28px;
+      color: rgb(200, 31, 31);
+      cursor: pointer;
+      margin-top: 5px;
+      &:hover {
+        color: red;
+      }
+    }
+
+    .left-cont {
+      display: flex;
+      width: 400px;
+    }
+
+    .logo-img-url {
+      margin: 36px 15px 0 14px;
+      border-radius: 20px;
+    }
+
+    .right-cont {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      overflow-x: auto;
+    }
+
+    .user-wrap {
+      max-width: 275px;
+
+      .user-wrap-header {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 33px;
+
+        .user-wrap-header-heart {
+          min-width: 40px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 10px;
+        }
+
+        .title {
+          font-size: 32px;
+          // margin-top: 33px;
+          font-weight: 900;
+          font-size: 32px;
+          line-height: 38px;
+        }
+      }
+
+      .creater {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        color: #999999;
+        padding-top: 7px;
+
+        .ant-typography {
+          font-weight: 900;
+          font-size: 16px;
+          color: var(--themeColor);
+          padding-right: 5px;
+          max-width: 185px;
+        }
+
+        .ant-image {
+          margin-top: -2px;
+        }
+      }
+    }
+
+    .action-group {
+      padding: 1px 10px 3px 0;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .link,
+      .fee {
+        display: flex;
+        align-items: center;
+        font-size: 12px;
+        color: #999;
+      }
+
+      .fee {
+        padding-left: 22px;
+
+        span {
+          color: #fff;
+        }
+      }
+      .anticon-link {
+        color: #fff;
+      }
+    }
+
+    .status-group {
+      display: flex;
+      width: 100%;
+
+      .status-item {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        padding: 20px 16px;
+        min-width: 240px;
+        max-width: 280px;
+        height: 97px;
+        box-sizing: border-box;
+        background-color: #0f0d14;
+        margin-right: 16px;
+        .ant-image {
+          margin-right: 20px;
+        }
+
+        h3 {
+          padding-bottom: 3px;
+        }
+      }
+    }
+  }
+
+  .view-body {
+    .description {
+      margin-top: 15px;
+    }
+
+    .collection-list {
+      margin-top: 15px;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .banner-image {
+      height: 210px !important;
+      img {
+        height: 100% !important;
+      }
+    }
+
+    .info-content {
+      display: flex;
+      flex-wrap: wrap;
+      background-size: auto;
+      background-repeat: no-repeat;
+      height: 555px;
+    }
+
+    .left-cont {
+      height: 140px;
+      overflow: hidden;
+      flex: 100% !important;
+    }
+    .logo-img-url{
+      width: 42px;
+      height: 42px;
+      margin: 36px 8px 0 10px;
+    }
+    .right-cont {
+      flex: 100% !important;
+    }
+
+    .status-group {
+      flex-wrap: wrap;
+      background: #161822;
+    }
+    .status-item {
+      margin: 0 auto;
+      flex: 100% !important;
+      max-width: 100% !important;
+    }
+    .creater .ant-typography{
+      max-width: 160px !important;
+    }
+  }
+}

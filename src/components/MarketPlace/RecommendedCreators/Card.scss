@@ -1,0 +1,95 @@
+.wrapper-new{
+
+  position: relative;
+  background: #1D1F31;
+  text-align: left;
+  padding: 24px 13px 29px 11px;
+  height: 207px;
+  width: 128px;
+  border-radius: 128px 128px 12px 12px;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 0 auto;
+  .follow-item{
+    .owner-image{
+      margin: 0 auto 0;
+      border-radius: 100%;
+      overflow: hidden;
+    }
+
+    .title{
+      margin-top: 14px;
+      margin-left: 0;
+    }
+
+    .follow-btn{
+      position: absolute;
+      left: 50%;
+      bottom: -14px;
+      transform: translateX(-50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 80px;
+      height: 28px;
+      font-size: 14px;
+      color: #fff;
+      background-color: #7774FF;
+      border-radius: 14px;
+      border: none;
+      font-weight: 500;
+      line-height: 24px;
+      padding: 5px 10px;
+      span {
+        display: flex;
+        align-items: center;
+        svg {
+          margin-left: 8px;
+        }
+      }
+    }
+    
+
+
+  }
+
+  .owner-image {
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    .ant-image {
+      width: 80px;
+      height: 80px;
+      background: var(--whiteColor);
+      border-radius: 10px;
+    }
+    img {
+      border-radius: 10px;
+      object-fit: cover;
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+
+  .title {
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .collect-count {
+    padding: 6px 0 0;
+    max-height: 66px;
+    min-height: 16.8px;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: left;
+    font-size: 12px;
+    color: #8B97B2;
+    text-align: center;
+    margin-left: 0;
+  }
+}

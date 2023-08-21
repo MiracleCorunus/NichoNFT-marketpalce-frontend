@@ -1,0 +1,82 @@
+.product-list {
+  margin-top: 73px !important;
+  @media screen and (max-width: 992px) {
+    margin-top: 70px;
+  }  
+  h2 {
+    margin: 0px !important;
+    font-size: 32px;
+  }
+
+  .ant-input-search .ant-input-group{
+    border-radius: 20px;
+    // background-color: #636C80;
+    background: #1D1F31;
+    border: none;
+  }
+  .ant-input-affix-wrapper{
+    background-color: transparent;
+    border: none;
+  }
+  .ant-input-prefix{
+    font-size: 28px;
+    color: #7774FF;
+  }
+  .ant-input{
+    padding-left: 5px !important;
+  }
+  .ant-input-group-addon .ant-btn-primary {
+    height: 26px !important;
+    min-width: 74px;
+    border-radius: 13px !important;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 8px 13px;
+    background-color: #7774FF !important;
+    box-sizing: border-box;
+    margin-right: 8px;
+
+  }
+  div.load-more {
+    text-align: center;
+    margin-top: 84px;
+    margin-bottom: -10px;
+    & > button {
+      padding: 14px 38px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .view-all-btn {
+    margin: 10px 0;
+    background: transparent;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+  }
+  .view-all-btn:hover {
+    background: transparent;
+  }
+  .grid-method-btn {
+    padding: 9px;
+    height: 50px;
+  }
+  .grid-method-btn.active {
+    background-color: #65428d;
+  }
+  .ant-select .ant-select-selector{
+    padding: 0 20px !important;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px !important;
+  }
+  .ant-select-arrow{
+    color: #fff !important;
+  }
+}

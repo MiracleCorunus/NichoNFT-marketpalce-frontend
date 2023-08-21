@@ -1,0 +1,91 @@
+.ant-layout-content .my-followers-new {
+    position: relative;
+    margin-top: 44px;
+
+    .ant-tabs-nav{
+      margin-bottom: 22px;
+    }
+    
+    .ant-tabs-nav-wrap{
+      border: none;
+      padding-left: 38px
+    }
+
+    .back-box{
+      position: absolute;
+      left: 70px;
+      top: 2px;
+      cursor: pointer;
+      z-index: 9;
+    }
+
+    .snail-img{
+      position: absolute;
+      top: -23px;
+      right: 90px;
+    }
+    .hearts-img {
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      transform: translate(-50%);
+    }
+
+    .ant-tabs-tab{
+      width: 104px;
+      height: 28px;
+      padding: 2px 17px;
+      background: #1D1F31;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 700;
+      &.ant-tabs-tab-active{
+        background: var(--themeColor);
+        .ant-tabs-tab-btn {
+          color: var(--bgMainColor);
+        }
+      }
+      &:nth-child(1) {
+        border-radius: 14px 0 0 14px;
+      }
+      &:nth-child(2) {
+        border-radius: 0 14px 14px 0;
+        margin-left: 0;
+      }
+    }
+
+    .tab-content{
+      background-size: 100% 16px;
+      background-repeat: no-repeat;
+      background-position: top center;
+      padding-top: 16px;
+      background-color: #1D1F31;
+      border-radius: 8px;
+      padding: 44px 18px;
+      min-height: 400px;
+      .wrapper-new{
+        background: #0F0D14;
+      }
+      .empty-txt{
+        color: #ccc;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 130px;
+      }
+    }
+
+  @media screen and (max-width: 992px) {
+    .snail-img{
+      display: none;
+    }
+    .hearts-img{
+      display: none;
+    }
+
+    .back-box{
+      left: auto;
+      top: 17px;
+    }
+  
+  }
+}

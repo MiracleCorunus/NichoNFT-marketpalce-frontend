@@ -1,0 +1,325 @@
+.create-nft-new {
+  width: 640px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  @media screen and (max-width: 750px) {
+    width: auto;
+    .create-top-content {
+      width: 100% !important;
+    }
+    .avatar-uploader .ant-upload {
+      width: 100% !important;
+    }
+    .ant-upload .file-uploader {
+      width: 100% !important;
+    }
+    .form-group,
+    .upload-group {
+      padding: 0 31px 0 27px !important;
+    }
+    .form-action {
+      width: 100% !important;
+      text-align: center;
+      button {
+        width: 100% !important;
+      }
+    }
+  }
+
+  .form-item textarea {
+    color: #fff;
+  }
+
+  .create-nft-content {
+    margin-top: -10px;
+    .upload-group {
+      text-align: left;
+      padding-left: 57px;
+      box-sizing: border-box;
+
+      h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+        margin-bottom: 8px;
+      }
+      .avatar-uploader {
+        margin-top: 41px;
+        .ant-upload-select {
+          background: none;
+          border: none;
+          justify-content: flex-start;
+        }
+        .ant-upload {
+          width: 512px;
+          height: auto;
+          .file-uploader {
+            position: relative;
+            width: 512px;
+            min-height: 167px;
+            box-sizing: border-box;
+            background-color: #0f0d14;
+            border-radius: 4px;
+            padding: 20px 22px 20px;
+            border: none;
+            h1.ant-typography {
+              // position: absolute;
+              // top: 95px;
+              // width: 100%;
+              // text-align: center;
+              // background-color: rgba(0,0,0,0.2);
+              // padding: 6px;
+              padding-top: 22px;
+            }
+            div.ant-typography {
+              // position: absolute;
+              // top: 121px;
+              width: 100%;
+              text-align: center;
+              padding-top: 6px;
+              // background-color: rgba(0,0,0,0.2);
+              // padding: 6px;
+            }
+            // padding: 64px 165px 84px 165px;
+            @media screen and (max-width: 576px) {
+              // padding: 44px 50px 64px 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .create-top-content {
+    position: relative;
+    top: 1;
+    padding-top: 110px;
+    width: 640px;
+    box-sizing: border-box;
+    background-size: 640px 179px;
+    background-color: 161822;
+
+    .top-title {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: Roboto;
+      height: 70px;
+      font-size: 24px;
+      font-weight: 900;
+      line-height: 28px;
+      letter-spacing: 0px;
+      padding: 0 24px;
+    }
+
+    .to-batch-nft {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 32px;
+      width: 128px !important;
+      padding: 0 15px;
+      border-radius: 16px;
+      overflow: hidden;
+      background: #7774ff;
+      color: #fff;
+      font-size: 14px;
+    }
+
+    // .batch-input{
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    //   height: 32px;
+    //   width: 120px !important;
+    //   border-radius: 16px;
+    //   overflow: hidden;
+    //   background: #7774FF;
+    //   color: #fff;
+    //   font-size: 14px;
+    // }
+
+    .ant-input {
+      background-color: transparent;
+      border-color: #7774ff;
+      color: #fff;
+    }
+    .ant-input-group-addon {
+      background-color: transparent;
+      border-color: #7774ff;
+    }
+  }
+
+  .create-bot-content {
+    text-align: center;
+    padding-top: 28px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    background: #161822;
+    position: relative;
+
+    .theme-block-button-group {
+      position: absolute;
+      top: 103px;
+      right: -145px;
+      transform: rotate(90deg);
+
+      .theme-block-button {
+        border-radius: 0;
+        border: 1px solid #7774ff;
+        color: #ffffff;
+      }
+      .theme-block-button-focus {
+        background-color: #7774ff;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -10px;
+          border-width: 10px;
+          border-style: solid;
+          border-color: #7774ff transparent transparent transparent;
+        }
+      }
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .form-group {
+      background: #161822;
+      text-align: left;
+      padding: 0 71px 0 57px;
+      border-radius: 0 0 6px 6px;
+
+      .form-action {
+        margin-top: 3px;
+        position: relative;
+        top: 26px;
+
+        button {
+          height: 56px;
+          width: 512px;
+          background-color: #7774ff;
+          border-radius: 28px;
+          border: none;
+        }
+      }
+
+      .form-item {
+        margin-top: 14px;
+        input {
+          color: #fff;
+          background: #0f0d14;
+          border-radius: 4px;
+          border: none;
+        }
+
+        .form-item-ai-button {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+
+    .ant-select .ant-select-selector {
+      color: #fff;
+    }
+  }
+
+  .state-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title-left {
+    display: flex;
+  }
+
+  // progress-model
+  .mint-progress-model {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+  }
+
+  .mint-progress {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 356px;
+    background-color: #7774ff;
+    // background: rgba(16, 13, 21, 0.8);
+    border: 1px solid #7774ff;
+    border-radius: 8px;
+    .mint-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 100%;
+      height: 140px;
+      background: #7774ff;
+      border-radius: 4px 4px 0px 0px;
+      font-weight: 400;
+      font-size: 19px;
+      line-height: 40px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .mint-content {
+      padding: 14px 14px;
+      .mint-item {
+        position: relative;
+        padding: 15px 22px;
+        margin: 10px 0px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        background-color: #0f0d14;
+        border-radius: 8px;
+        color: #ffffff;
+      }
+      .mint-item-img {
+        position: absolute;
+        width: 21px;
+        height: 21px;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 16px;
+      }
+    }
+
+    .mint-footer {
+      text-align: center;
+      padding: 0 10px 16px;
+      .cancel-btn {
+        cursor: pointer;
+        color: #ccc;
+        padding: 4px 15px;
+        border: 1px solid #7774ff;
+        border-radius: 30px;
+        font-size: 18px;
+      }
+    }
+  }
+}

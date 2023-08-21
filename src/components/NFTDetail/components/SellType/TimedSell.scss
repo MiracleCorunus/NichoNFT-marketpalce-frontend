@@ -1,0 +1,25 @@
+.sell-tabs {
+    .form-group {
+        // margin: 0px !important;
+        padding: 0px !important;
+
+        .form-item {
+            margin-top: 10px !important;
+            margin-bottom: 20px !important;
+
+            .ant-input-affix-wrapper {
+                color: #666;
+                font-size: 16px;
+                line-height: 140%;
+                border: 1px solid var(--white40Color);
+                border-radius: 8px;
+                background: none;
+
+                .ant-input {
+                    border: none;
+                    padding: 15px 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.Partners {
+  margin-top: 70px;
+
+  .partner-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .partners-list {
+    padding-top: 50px;
+  }
+
+  .ant-typography {
+    margin: 0px;
+  }
+
+  button {
+    margin: 10px 0;
+    background: transparent;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+  }
+
+  button:hover {
+    background: transparent;
+  }
+}

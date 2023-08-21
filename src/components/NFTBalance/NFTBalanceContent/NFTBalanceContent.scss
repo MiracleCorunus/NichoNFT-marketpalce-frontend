@@ -1,0 +1,33 @@
+.nft-balance .nft-balance-content-new {
+  margin-top: 40px;
+  .total-counter {
+    color: white;
+  }
+  .ant-tabs-nav-wrap{
+    border: none;
+  }
+  .ant-tabs-tab{
+    padding: 5px 28px;
+    height: 28px;
+    border-radius: 14px;
+    background: #1D1F31;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    &.ant-tabs-tab-active{
+      background: var(--themeColor);
+      .ant-tabs-tab-btn {
+        color: var(--bgMainColor);
+      }
+    }
+  }
+  
+  .grid-method-btn {
+    padding: 9px;
+    height: 50px;
+  }
+  .grid-method-btn.active {
+    background-color: #65428d;
+  }
+
+}

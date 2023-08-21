@@ -1,0 +1,20 @@
+.Partners {
+    margin-top: 70px;
+    .partner-group {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .partners-list {
+        padding-top: 50px;
+    }
+
+    .ant-typography {
+        // margin: 10px;
+    }
+    iframe {
+        pointer-events: auto;
+    }
+}

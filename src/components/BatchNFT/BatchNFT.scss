@@ -1,0 +1,150 @@
+.create-nft {
+  @media screen and (max-width: 750px) {
+    width: auto;
+    .create-top-content {
+      width: 100% !important;
+    }
+    .avatar-uploader .ant-upload {
+      width: 100% !important;
+    }
+    .ant-upload .file-uploader {
+      width: 100% !important;
+    }
+    .form-group,
+    .upload-group {
+      padding: 0 31px 0 27px !important;
+    }
+    .form-action {
+      width: 100% !important;
+      text-align: center;
+      button {
+        width: 100% !important;
+      }
+    }
+  }
+  .create-nft-header {
+    padding: 93px;
+    text-align: center;
+    background-color: var(--bgSecondaryColor);
+    border-bottom: 1px solid var(--white40Color);
+  }
+
+  .create-nft-content {
+    margin-top: 138px;
+    .upload-group {
+      text-align: left;
+      h3 {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 140%;
+        margin-bottom: 8px;
+      }
+      .avatar-uploader {
+        margin-top: 41px;
+        .ant-upload-select {
+          background: none;
+          border: none;
+        }
+        .ant-upload {
+          width: 100%;
+          height: auto;
+          .file-uploader {
+            // margin-bottom: 51px;
+            padding: 64px 165px 84px 165px;
+            @media screen and (max-width: 576px) {
+              padding: 44px 50px 64px 50px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .create-bot-content {
+    text-align: center;
+    padding-top: 28px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    background: #161822;
+    position: relative;
+
+    .theme-block-button-group {
+      position: absolute;
+      top: 103px;
+      right: -145px;
+      transform: rotate(90deg);
+
+      .theme-block-button {
+        border-radius: 0;
+        border: 1px solid #7774ff;
+        color: #ffffff;
+      }
+      .theme-block-button-focus {
+        background-color: #7774ff;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 100%;
+          left: 50%;
+          margin-left: -10px;
+          border-width: 10px;
+          border-style: solid;
+          border-color: #7774ff transparent transparent transparent;
+        }
+      }
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .form-group {
+      background: #161822;
+      text-align: left;
+      padding: 0 71px 0 57px;
+      border-radius: 0 0 6px 6px;
+
+      .form-action {
+        margin-top: 3px;
+        position: relative;
+        top: 26px;
+        z-index: 1;
+
+        button {
+          height: 56px;
+          width: 512px;
+          background-color: #7774ff;
+          border-radius: 28px;
+          border: none;
+        }
+      }
+
+      .form-item {
+        margin-top: 14px;
+        input {
+          color: #fff;
+          background: #0f0d14;
+          border-radius: 4px;
+          border: none;
+        }
+      }
+    }
+
+    .ant-select .ant-select-selector {
+      color: #fff;
+    }
+  }
+
+  .state-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

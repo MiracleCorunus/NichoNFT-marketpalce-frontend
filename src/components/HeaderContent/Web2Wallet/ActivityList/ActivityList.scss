@@ -1,0 +1,60 @@
+.web2wallet-activity-wrapper {
+  //   color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  // padding: 0.5rem 0.5rem 0.5rem 0;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+    border-color: rgb(119, 116, 255);
+    box-shadow: 0px 0px 5px rgb(119, 116, 255);
+  }
+
+  .web2wallet-activity-logo {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    align-items: center;
+  }
+
+  .web2wallet-activity-content {
+    width: 100%;
+    flex: 9;
+    display: flex;
+    flex-direction: column;
+
+    .web2wallet-activity-top-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .web2wallet-activity-bottom-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .web2wallet-activity-bottom-date {
+        font-size: 0.5rem;
+        color: #57fb04;
+      }
+
+      .web2wallet-activity-bottom-address {
+        font-size: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        color: grey;
+      }
+    }
+  }
+}

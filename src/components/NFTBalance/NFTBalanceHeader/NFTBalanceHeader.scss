@@ -1,0 +1,86 @@
+.nft-balance-header-new {
+  background-color: var(--secondaryBgColor);
+  border-radius: 8px;
+  .bg-content {
+    width: 100%;
+    height: 343px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .personal-content{
+    min-height: 129px;
+    padding: 13px 32px 12px;
+    box-sizing: border-box;
+    .user-info {
+      display: flex;
+      align-items: center;
+      h3 {
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 140%;
+      }
+      h4 {
+        border-left: 1px solid var(--white40Color);
+        padding-left: 17px;
+        margin-left: 8px;
+      }
+     
+    }
+    .bio-wrap{
+      max-width: 800px;
+      font-size: 14px;
+    }
+  
+    .user-avatar {
+      border-radius: 50%;
+      // border: 8px solid var(--bgSecondaryColor);
+      width: 80px;
+      height: 80px;
+      background-color: var(--themeColor);
+      margin-right: 16px;
+      flex-shrink: 0;
+      & > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+      }
+    }
+
+    .user-address {
+      // margin-left: 6px;
+      font-size: 14px;
+      line-height: 16px;
+      color: #8B97B2;
+    }
+
+    .mail-icon{
+      margin-right: 20px;
+    }
+
+    .twitter-icon, .mail-icon{
+      &:hover{
+        path{
+          fill: #fff;
+        }
+      }
+      path{
+        fill: #7774FF;
+      }
+    }
+  }
+
+
+
+  .edit-banner-img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }
+  .edit-banner-img:hover {
+    cursor: pointer;
+  }
+
+}

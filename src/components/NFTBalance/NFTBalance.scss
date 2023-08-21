@@ -1,0 +1,7 @@
+.set-column-wrap{
+  position: relative;
+  top: -46px;
+  @media screen and (max-width: 992px) {
+    top: 0;
+  }
+}

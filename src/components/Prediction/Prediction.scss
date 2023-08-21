@@ -1,0 +1,34 @@
+.prediction {
+  padding-top: 60px;
+  
+  .title-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 756px;
+    height: 55px;
+    border: 1px solid #7774FF;
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #7774FF;
+    .ant-image{
+      margin-right: 8px;
+    }
+  }
+  .slick-arrow{
+    width: 28px;
+    height: 28px;
+  }
+  .slick-prev:before, .slick-next:before{
+    display: none;
+  }
+  .slick-prev{
+    left: -34px;
+  }
+
+}

@@ -1,0 +1,67 @@
+.app__notification_modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9998;
+
+  .app__notification_notify-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 356px;
+    background: rgba(16, 13, 21, 0.8);
+    border: 1px solid #7774ff;
+    border-radius: 8px;
+
+    .app__notification_notify-header {
+      font-size: 20px;
+      border-radius: 8px 8px 0 0;
+      width: 100%;
+      height: 50px;
+      background-color: #7774ff;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      .app__notification_notify-img {
+        position: absolute;
+        top: 25%;
+        right: 5%;
+        cursor: pointer;
+      }
+    }
+    .app__notification_notify-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 20px 20px;
+
+      .app__notification_notify-message {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0 0 15px;
+        width: 75%;
+        text-align: center;
+        font-size: 16px;
+      }
+      .app__notification_notify-button {
+        font-size: 16px;
+        color: #0f0d14;
+        margin: 0 0 15px;
+        background-color: #53f2d4;
+        border: 1px solid #53f2d4;
+        border-radius: 20px;
+        width: 90%;
+        padding: 8px;
+        cursor: pointer;
+      }
+    }
+  }
+}

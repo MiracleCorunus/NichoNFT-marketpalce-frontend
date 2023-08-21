@@ -1,0 +1,20 @@
+{
+  "image": "https://ipfs.moralis.io:2053/ipfs/QmNtPPsxxPbEWJ4RgZ5ujV96uJXzAnVBejjr1NvPR2SVCf",
+  "collection": "Event-page",
+  "description": "This is the golden kangaroo",
+  "external_link": "",
+  "name": "Osphranter_Rufus",
+  "sellerUsername": "c6GHTWzWee4DPAlNNEuFcB7T0",
+  "isListed": true,
+  "avatar": "/images/avatar.png",
+  "creator": "0x05a2e4b5b44a45671ecd95dcb30456e9d649868b",
+  "itemPrice": 50,
+  "ownerOf": "0x05a2e4b5b44a45671ecd95dcb30456e9d649868b",
+  "tokenId": "1280",
+  "address": "0x3f3891d2d391c801aa8cc47ea90cda6a15f89b7f",
+  "collectionId": "BdByTEwwf98F66RQc3AaTeyG",
+  "objectId": "HpkdTwFxcBvS7HMzXjB6Rd7Q",
+  "minterUsername": "c6GHTWzWee4DPAlNNEuFcB7T0",
+  "minter_avatar": "/images/avatar.png",
+  "transaction": "0x5b13d93234f82d68577f14afde10ce7ddb8fe21f6be4ce1a78279f82c8350390"
+}

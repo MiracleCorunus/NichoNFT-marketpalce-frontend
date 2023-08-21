@@ -1,0 +1,105 @@
+.Collections {
+  position: relative;
+  padding-top: 66px;
+  padding-bottom: 52px;
+  text-align: center;
+
+  .ant-image {
+    height: 100%;
+    & > img {
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .carousel-wrap {
+    @media screen and (min-width: 992px) {
+      display: none;
+    }
+  }
+
+  .ant-btn {
+    width: 240px;
+    height: 56.12px;
+    background: rgb(119, 116, 255) !important;
+    box-shadow: 0px 10px 10px rgba(77, 78, 86, 0.04);
+    border-radius: 28.06px;
+    background: rgba(15, 13, 20, 0.8);
+    border: none;
+    &:hover {
+      background: rgba(119, 116, 255, 0.7) !important;
+      box-shadow: 0px 2px 30px rgb(89 86 229 / 40%);
+      // background: rgba(119, 116, 255, 0.7);
+    }
+  }
+
+  .view-all-btn {
+    @media screen and (max-width: 992px) {
+      bottom: 20px;
+    }
+  }
+
+  .ant-carousel {
+    max-width: 463px;
+    margin: 20px auto;
+  }
+
+  .wrapper {
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(22, 24, 34);
+
+    .collection-img {
+      position: relative;
+      .ant-image {
+        height: inherit;
+        overflow: hidden;
+        border-radius: 6px;
+        img {
+          object-fit: cover;
+          width: 100%;
+        }
+      }
+    }
+
+    .title {
+      margin-top: 22px;
+    }
+    .description {
+      margin-top: 8px;
+      margin-bottom: 20px;
+      // padding: 0 35px;
+      max-height: 66px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    // .owner-img {
+    //   border: 2px solid white;
+    //   border-radius: 50%;
+    //   position: absolute;
+    //   bottom: 10px;
+    //   right: -8px;
+    //   width: 34px;
+    //   height: 34px;
+    //   transform: translateX(-50%);
+    //   .ant-image {
+    //     width: 30px;
+    //     height: 30px;
+    //     background: var(--whiteColor);
+    //     border-radius: 50%;
+    //   }
+    //   img {
+    //     border-radius: 50%;
+    //     width: 100%;
+    //     width: 30px !important;
+    //     height: 30px !important;
+    //   }
+    // }
+  }
+}

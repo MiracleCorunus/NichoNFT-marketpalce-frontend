@@ -1,0 +1,64 @@
+@font-face {  
+  font-family: "rigel star";
+  src: url("./assets/fonts/Rigelstar.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'hemi head';
+  src: url("./assets/fonts/hemi_head_rg_it.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Abhaya Libre';
+  src: url('./assets/fonts/AbhayaLibre-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/BebasNeue-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mukta';
+  src: url('./assets/fonts/Mukta-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.ant-layout {
+  .ant-layout-content {
+    padding-top: 48px;
+  }
+
+  .ant-layout-footer {
+    background: rgb(22, 24, 34) !important;
+    padding: 0;
+  }
+
+  .page-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 70px;
+    @media screen and (max-width: 1200px) {
+      padding: 0 50px;
+    }    
+    @media screen and (max-width: 992px) {
+      padding: 0 40px;
+    }
+    @media screen and (max-width: 768px) {
+      padding: 0 30px;
+    }
+    
+    @media screen and (max-width: 576px) {
+      padding: 0 15px;
+    }
+  }
+}
+
+iframe {
+  pointer-events: none;
+}

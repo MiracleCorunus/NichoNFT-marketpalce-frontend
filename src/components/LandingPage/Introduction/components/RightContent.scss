@@ -1,0 +1,119 @@
+.right-content {
+  position: relative;
+  margin-top: 240px;
+  @media screen and (max-width: 992px) {
+    display: none !important;
+  }
+  &.right-content3 {
+    .right-img1 {
+      top: -50px;
+      left: 32.56%;
+      width: 186.4px;
+      height: 181.6px;
+    }
+
+    .right-img2 {
+      left: auto;
+      right: 26%;
+      width: 66.4px;
+      height: 56.8px;
+    }
+    .right-img3 {
+      width: 39.2px;
+      height: 33.6px;
+      left: 148px;
+      top: 105px;
+    }
+  }
+
+  .right-img1 {
+    position: absolute;
+    width: 136px;
+    height: 222px;
+    //left: 32.56%;
+    left: 36.4%;
+    top: -33px;
+    z-index: 1;
+    animation-name: beat;
+    /*动画名称*/
+    animation-duration: 1s;
+    /*设置秒数*/
+    animation-timing-function: linear;
+    /*速度曲线*/
+    animation-iteration-count: infinite;
+    /*播放次数*/
+    animation-direction: alternate;
+    @media screen and (min-width: 1200px) {
+    }
+  }
+
+  @keyframes beat {
+    0% {
+      top: -28px;
+    }
+    100% {
+      top: -38px;
+    }
+  }
+  @keyframes beat2 {
+    0% {
+      top: -22px;
+    }
+    100% {
+      top: -32px;
+    }
+  }
+
+  .right-img2 {
+    position: absolute;
+    width: 37px;
+    height: 59px;
+    left: 200px;
+    top: -57px;
+    z-index: 1;
+  }
+
+  .right-img3 {
+    position: absolute;
+    width: 18px;
+    height: 28px;
+    left: 388px;
+    top: 149px;
+    z-index: 1;
+  }
+
+  .ant-image {
+    position: relative;
+    left: -18px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+    img {
+      border-radius: 16px;
+    }
+  }
+
+  // 媒体查询
+  @media screen and (max-width: 1300px) {
+    margin-top: 260px;
+    .ant-image-img {
+      width: 504px !important;
+      height: 294px !important;
+    }
+    .right-img1 {
+      width: 95.2px;
+      height: 155.4px;
+      left: 190px;
+      top: -22px;
+      animation-name: beat2;
+    }
+    .right-img2 {
+      width: 25.9px;
+      height: 41.3px;
+    }
+
+    .right-img3 {
+      width: 12.6px;
+      height: 19.6px;
+    }
+  }
+}

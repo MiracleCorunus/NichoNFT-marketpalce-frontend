@@ -1,0 +1,32 @@
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #161822;
+    h3{
+        color: #fff !important;
+    }
+    .form-item {
+        width: 100%;
+        margin-top: 35px;
+        .nft-price {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-end;
+            .token-amount {
+                color: white !important;
+                font-size: 18px !important;
+                font-weight: 500 !important;
+            }
+
+            .token-price {
+                color: white !important;
+                font-size: 18px !important;
+                margin-left: 2px !important;
+            }
+        }
+    }
+}
